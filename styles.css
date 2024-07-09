@@ -40,11 +40,15 @@ body{
 }
 
 .hero-word{
+      font-family: Inter;
     font-size: 20px;
-    font-family: Inter;
+    font-weight: 400 !important;
+    line-height: 24.2px;
+    text-align: left;
     margin-top: 30px;
     color: hsl(0, 3%, 50%);
     margin-bottom: 45px !important;
+    max-width: 725px !important;
 }
 
 
