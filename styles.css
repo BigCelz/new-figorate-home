@@ -357,9 +357,11 @@ body{
     color: #18181B !important;
     font-family: Open Sans;
     font-size: 24px;
-    line-height: 35px;
-    margin-top: 55px !important;
-    margin-bottom: 70px;
+    font-weight: 400 !important;
+    line-height: 33.6px;
+    text-align: center;
+    max-width: 1088px !important;    
+    margin-bottom: 10% !important;
 }
 
 .border-column{
@@ -381,9 +383,10 @@ body{
 .small-col-word{
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 21.77px;
     text-align: left;
+    max-width: 262px !important; ;    
     color: #18181B;
 }
 
@@ -423,7 +426,7 @@ body{
     .why-word{
         color: #18181B !important;
         font-family: Open Sans;
-        font-size: 18px !important;
+        font-size: 15px !important;
         line-height: 25px;
         margin-top: 15px !important;
         margin-bottom: 70px;
@@ -451,9 +454,17 @@ body{
         border-top: 1px solid #00000066;
         border-bottom: 1px solid #00000066 ;
      }
+
+    .small-col-easy{
+        font-size: 16px !important;
+        font-weight: 600 !important;
+    }
+
+    .small-col-word{
+        font-size: 15px !important;
+        margin-top: -10px !important;
+    }
 }
-
-
 /* why end */
 
 /* premium start */
