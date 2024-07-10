@@ -1338,7 +1338,7 @@ body{
 
 .blog-word{
     font-family: Lora;
-    font-size: 12px;
+    font-size: 10px !important;
     font-weight: 400 !important;
     line-height: 20px;
     text-align: left;
@@ -1348,11 +1348,12 @@ body{
 
 .blog-word-ii{
     font-family: Lora;
-    font-size: 10px;
+    font-size: 9px !important;
     font-weight: 400;
     line-height: 20px;
     color: #6C757D !important;  
     margin-top: 20px;
+    max-width: 341.83px !important;  
 }
 
 .blog-describe-ii{
