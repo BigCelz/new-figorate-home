@@ -1328,18 +1328,22 @@ body{
 .blog-describe{
     font-family: Lora;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 700 !important;
     line-height: 25px;
-    color: #6C757D !important;  
+    text-align: left;
+    color: #495057 !important;  
+    max-width: 301.03px !important;
+    padding-bottom: 20px !important;
 }
 
 .blog-word{
     font-family: Lora;
-    font-size: 11px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 400 !important;
     line-height: 20px;
-    color: #6C757D !important;  
-    margin-top: 20px;
+    text-align: left;
+    color: #6C757D; 
+    max-width: 341.83px !important;   
 }
 
 .blog-word-ii{
@@ -1355,8 +1359,9 @@ body{
     font-family: Lora;
     font-size: 16px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 20px;
     color: #6C757D !important;  
+    padding-bottom: 20px !important;
 }
 /* blog section end */
 
