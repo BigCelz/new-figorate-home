@@ -826,7 +826,7 @@ body{
     padding-top: 10px !important;
     /* padding-bottom: 30px !important; */
     border: none !important;
-    height: 99% !important;
+   max-height: 100% !important;
     width: 260px;
 }
 
@@ -900,7 +900,7 @@ body{
     border-radius: 24px !important;
     padding-top: 10px !important;
     border: none !important;
-    height: 100% !important;
+    max-height: 100% !important;
     width: 260px;
 }
 
@@ -983,7 +983,7 @@ body{
     border-radius: 24px !important;
     padding-top: 10px !important;
     border: none !important;
-    height: 97% !important;
+    max-height: 99% !important;
     width: 260px !important;
 }
 
@@ -992,15 +992,15 @@ body{
 }
 
 .first-price-column{
-    margin-top: 160px !important;
+    padding-top: 148px !important;
 }
 
 .second-price-column{
-    margin-top: 141px !important;
+    padding-top: 130px !important;
 }
 
 .third-price-column{
-    margin-top: 60px !important;
+    padding-top: 35px !important;
 }
 
 
@@ -1125,24 +1125,13 @@ body{
     }
 
     .second-price-column{
-        margin-top: 30px !important;
+        padding-top: 15px !important;
     }
     
     .third-price-column{
-        margin-top: 30px !important;
-    }
-
-
-  
+        padding-top: 15px !important;
+    } 
 }
-
-
-
-
-
-
-
-
 /* price section end
 
 /* people start */
